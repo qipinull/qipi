@@ -15,27 +15,109 @@ body, html {
 }
 
 body {
-    background-color: rgb(23, 25, 26);
+    background-color: rgb(37, 18, 17);
+    margin: 0;
+}
+
+.nav{
+  display: flex;
+  height: 50px;
+  padding-bottom: 14px;
+}
+
+.nav a{
+  padding: 20px;
+}
+
+.nav img{
+  padding-top: 7px;
+  width: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 
 .text {
     color: rgb(211, 211, 211);
     text-align: center;
-}
-
-.navbar-nav {
-    font-size-adjust: 0.8;
-    font-family: mario; 
-}
+} 
 
 .qipiwebsite {
-    padding-top: 2%;
-    width: 40vw;
-    max-width: 800px;
+    padding-top: 100px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .hptext {
     color: rgb(211, 211, 211);
-    padding-top: 5vw;
+    padding-top: 2vw;
     text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(90, 45, 42);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  font-size-adjust: 0.8;
+  font-family: mario; 
+  float: left;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(68, 33, 32);
+}
+
+.active {
+  background-color: rgb(37, 18, 17);
+}
+
+/* card */
+.flex-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-text p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(211, 211, 211);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border-radius: 25px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.6);
 }

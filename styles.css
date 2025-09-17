@@ -97,6 +97,8 @@ li a:hover:not(.active) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .flex-text p {

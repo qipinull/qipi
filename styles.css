@@ -127,16 +127,10 @@ li a:hover:not(.active) {
 .gif {
   margin-left: 40px;
   margin-right: 40px;
-  border-radius: 100%;
-  transition: 0.3s;
-  box-shadow: 0 0 64px 0 rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  height: 25vw;
-  width: 25vw;
+  height: 250px;
 }
 
 .spongebob:hover {

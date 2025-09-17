@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+a {
+    color: white;
+}
+
 body, html {
     height: 100%;
     font-family: cursive;

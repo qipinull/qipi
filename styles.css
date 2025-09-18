@@ -10,7 +10,8 @@
 }
 
 a {
-    color: color#594645;
+    color: #594645;
+    text-decoration: underline;
 }
 
 body, html {
